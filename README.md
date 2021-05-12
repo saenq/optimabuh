@@ -8,7 +8,7 @@
 + SASS
 
 <p align='center'>
-    <img src='https://kwacha.space/optimabuh/images/screenshot.jpg' width='100%'>
+    <img src='https://kwacha.space/optimabuh/images/screenshot3.jpg' width='100%'>
 </p>
 
 [**Демо**](https://kwacha.space/optimabuh/)
