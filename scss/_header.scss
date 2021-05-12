@@ -1,0 +1,17 @@
+.b-header {
+    &__icon {
+        display: flex;
+        align-items: center;
+        .oi {
+            color: #005fa3;
+            margin-right: 15px;
+            width: 18px;
+            text-align: center;
+        }
+    }
+    &__topline-inner {
+        @media (min-width: 992px) {
+            width: 100%;
+        }
+    }
+}

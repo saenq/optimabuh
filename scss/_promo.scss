@@ -1,0 +1,40 @@
+.b-promo {
+    .b-slider {
+        &__item {
+            height: 100%;
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__title {
+            max-width: 600px;
+            margin-bottom: 40px;
+            color: #fff;
+            text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+            font-family: Merriweather;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 66px;
+        }
+        &__control-wrapper {
+            height: 100%;
+            position: relative;
+        }
+        &__caption-wrapper {
+            position: absolute;
+            top: 18%;
+            margin-left: -15px;
+            z-index: 1;
+        }
+    }
+    .carousel-inner {
+        height: 580px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-indicators {
+        bottom: 15%;
+    }
+}

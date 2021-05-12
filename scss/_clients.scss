@@ -1,0 +1,38 @@
+.b-clients {
+    background-color: #ebebeb;
+    padding: 100px 0;
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__subtitle {
+        margin-bottom: 60px;
+    }
+
+    &-slider {
+        // &__logo {
+        //     margin: 0 -15px;
+
+        //     &:not(:last-child) {
+        //         margin-right: 25px;
+        //     }
+        // }
+
+        &__logo-img {
+            width: 100%;
+        }
+    }
+
+    .b-slider {
+    }
+    .carousel-inner {
+        height: 255px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-indicators {
+        // bottom: 15%;
+    }
+}

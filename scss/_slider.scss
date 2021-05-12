@@ -1,0 +1,77 @@
+.carousel {
+}
+.slide {
+}
+.b-slider {
+    .carousel-item {
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: auto;
+        width: 60px;
+        height: 60px;
+        color: #fff;
+        opacity: 1;
+        background-color: rgba(#fff, 0.3);
+        &:hover {
+            background-color: rgba(#fff, 0.5);
+        }
+
+        &--color-brand {
+            background-color: rgba(#005fa3, 0.3);
+            &:hover {
+                background-color: #005fa3;
+            }
+        }
+    }
+
+    .carousel-control-prev {
+        right: 60px;
+        left: auto;
+    }
+    .carousel-control-prev-icon {
+    }
+    .sr-only {
+    }
+    .carousel-control-next {
+    }
+    .carousel-control-next-icon {
+    }
+
+    .carousel-indicators {
+        right: auto;
+        margin-left: auto;
+        &--color-brand li {
+            background-color: rgba(#005fa3, 0.3);
+            &.active {
+                background-color: #005fa3;
+            }
+        }
+
+        li {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 40px;
+        }
+    }
+    .carousel-control-prev--color-brand,
+    .carousel-control-next--color-brand,
+    .carousel-indicators--color-brand {
+    }
+}
+
+.active {
+}
+
+.d-block {
+}
+.w-100 {
+}
+.carousel-caption {
+}
+.d-none {
+}
+.d-md-block {
+}
